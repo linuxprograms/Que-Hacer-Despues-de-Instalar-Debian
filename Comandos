@@ -1,0 +1,20 @@
+==================================
+Actualizar Sistema
+==================================
+sudo apt-get update -y
+sudo apt-get upgrade -y
+
+==================================
+Instalando Dependencias y Paquetes
+==================================
+sudo apt install gdebi gdebi-core synaptic p7zip-full p7zip-rar rar unrar ffmpeg libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-plugins-bad gstreamer1.0-pulseaudio vorbis-tools fonts-freefont-ttf fonts-freefont-otf 
+ttf-mscorefonts-installer fonts-ubuntu
+
+==================================
+Instalando Programas (Necesarios)
+==================================
+sudo apt-get install vlc qbittorrent cmatrix simplescreenrecorder kdenlive gnome-boxes eog evince mousepad chromium-l10n falkon
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Listo
+
