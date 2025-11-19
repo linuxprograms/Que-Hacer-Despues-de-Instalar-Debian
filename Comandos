@@ -13,7 +13,7 @@ ttf-mscorefonts-installer fonts-ubuntu
 ==================================
 Instalando Programas (Necesarios)
 ==================================
-sudo apt-get install vlc qbittorrent cmatrix simplescreenrecorder kdenlive gnome-boxes eog evince mousepad chromium-l10n falkon
+sudo apt-get install vlc qbittorrent cmatrix simplescreenrecorder kdenlive eog evince mousepad chromium-l10n bibata-cursor-theme papirus-icon-theme htop btop gparted tilix
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 Listo
