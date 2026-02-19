@@ -1,19 +1,22 @@
-==================================
 Actualizar Sistema
-==================================
-sudo apt-get update -y
-sudo apt-get upgrade -y
+sudo apt update && sudo apt dist-upgrade -y
 
-==================================
-Instalando Dependencias y Paquetes
-==================================
-sudo apt install gdebi gdebi-core synaptic p7zip-full p7zip-rar rar unrar ffmpeg libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-plugins-bad gstreamer1.0-pulseaudio vorbis-tools fonts-freefont-ttf fonts-freefont-otf 
-ttf-mscorefonts-installer fonts-ubuntu
+Liberias
+sudo apt install ffmpeg libavcodec-extra gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-plugins-bad gstreamer1.0-pulseaudio vorbis-tools 
+gdebi gdebi-core synaptic p7zip-full p7zip-rar rar unrar
 
-==================================
-Instalando Programas (Necesarios)
-==================================
-sudo apt-get install vlc qbittorrent cmatrix simplescreenrecorder kdenlive eog evince mousepad chromium-l10n bibata-cursor-theme papirus-icon-theme htop btop gparted tilix
+Tipografias
+sudo apt-get install fonts-freefont-ttf fonts-freefont-otf ttf-mscorefonts-installer fonts-ubuntu
+
+Programas
+sudo apt install cmatrix qbittorrent vlc fastfetch mousepad obs-studio kdenlive simplescreenrecorder ffmpeg eog -y
+
+Porgramas y accesorios
+sudo apt install
+
+Install Flatpak
+sudo apt install flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 Listo
