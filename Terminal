@@ -11,9 +11,6 @@ sudo apt-get install fonts-freefont-ttf fonts-freefont-otf ttf-mscorefonts-insta
 Programas
 sudo apt install cmatrix qbittorrent vlc fastfetch mousepad obs-studio kdenlive simplescreenrecorder ffmpeg eog -y
 
-Porgramas y accesorios
-sudo apt install
-
 Install Flatpak
 sudo apt install flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
